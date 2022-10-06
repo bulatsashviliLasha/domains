@@ -1,4 +1,4 @@
-## [Project link](https://endearing-horse-bf9cc6.netlify.app/)
+## [Project link](https://glittery-mermaid-529477.netlify.app/)
 
 ## Usage
 
