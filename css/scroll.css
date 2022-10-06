@@ -1,0 +1,29 @@
+.scroll_top {
+    width: 54px;
+    border: 1px solid white;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #99CC66;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility .4s ease, opacity .4s ease;
+    cursor: pointer;
+}
+
+.scroll_top:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 7px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}

@@ -1,0 +1,117 @@
+@import "fonts.css";
+@import "scroll.css";
+@import "range-slider.css";
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 100;
+    background: #FFFFFF;
+}
+
+.user{
+    padding: 13px 15px 13px 14px;
+}
+
+.nav-links{
+    border-top:1px solid #F1F1F5;
+    border-bottom: 1px solid #F1F1F5;
+}
+
+.main-title{
+    background-image: url("../assets/images/shutterstock_1040.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-title:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000004D 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+}
+
+.domains li:before{
+    content: "";
+    height: 1px;
+    width: 95%;
+    position: absolute;
+    background: #F1F1F5;
+    bottom: 0;
+}
+
+input[type="checkbox"]:after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f00c';
+    color:white;
+    font-size: 11px;
+    display: none;
+}
+input[type="checkbox"]:checked{
+    background: #99CC66;
+}
+input[type="checkbox"]:checked:after{
+    display: block;
+}
+
+.search-btn-container{
+    box-shadow: 0px -3px 6px #00000014;
+}
+
+body > main > section.max-w-7xl.mx-auto.flex.gap-\[40px\].xl\:px-\[20px\] > section > div.pt-\[35px\].pr-\[35px\].pl-\[30px\].max-w-\[380px\].w-full.bg-white.rounded-t-\[15px\] > div:nth-child(5) > ul > li:nth-child(7){
+    margin-bottom: unset !important;
+    padding-bottom: 40px;
+}
+.always{
+    display: block !important;
+}
+
+@media only screen and (max-width: 376px) {
+    .main-title{
+        background-image: url("../assets/images/shutterstock_1040_M.png");
+        border-radius: unset !important;
+        background-size: contain;
+    }
+    .main-title:before{
+        border-radius: unset !important;
+        height: clamp(30.9vw,10px,31vw);
+    }
+    h1{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

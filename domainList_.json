@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "name": "უძრავი ქონება",
+      "id": 1
+    },
+    {
+      "name": "ბიზნესი",
+      "id": 2
+    },
+    {
+      "name": "მედია",
+      "id": 3
+    },
+    {
+      "name": "ტექნოლოგიები",
+      "id": 4
+    }
+  ],
+  "domainList": [
+    {
+      "domainName": "magictomato.ge",
+      "domainExtension": ".ge",
+      "price": "39 500",
+      "priceUsd": "13 915.8 $",
+      "categories": [
+        4
+      ]
+    },
+    {
+      "domainName": "guduna.com.ge",
+      "domainExtension": ".com.ge",
+      "price": "10 000",
+      "priceUsd": "3 522.9 $",
+      "categories": [
+        2,
+        3
+      ]
+    },
+    {
+      "domainName": "media-business.net.ge",
+      "domainExtension": ".net.ge",
+      "price": "35 000",
+      "priceUsd": "12 330.4 $",
+      "categories": [
+        2,
+        3
+      ]
+    },
+    {
+      "domainName": "lemondo.org.ge",
+      "domainExtension": ".org.ge",
+      "price": "49 999",
+      "priceUsd": "17 614.5 $",
+      "categories": [
+        4
+      ]
+    },
+    {
+      "domainName": "programming.school.ge",
+      "domainExtension": ".school.ge",
+      "price": "12 000",
+      "priceUsd": "4 227.5 $",
+      "categories": [
+        4
+      ]
+    },
+    {
+      "domainName": "learngeorgian.edu.ge",
+      "domainExtension": ".edu.ge",
+      "price": "20 000",
+      "priceUsd": "7 045 $",
+      "categories": [
+        2
+      ]
+    },
+    {
+      "domainName": "buyhouse.netlify.ge",
+      "domainExtension": ".netlify.ge",
+      "price": "5 000",
+      "priceUsd": "1 761.4 $",
+      "categories": [
+        1
+      ]
+    }
+  ]
+}

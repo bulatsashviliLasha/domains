@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'TKT-Regular';
+    src: url('../assets/fonts/TKT-Regular.woff2') format('woff2'),
+    url('../assets/fonts/TKT-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'TKT-Bold';
+    src: url('../assets/fonts/TKT-bold.woff2') format('woff2'),
+    url('../assets/fonts/TKT-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TKT-Medium';
+    src: url('../assets/fonts/TKT-Medium.woff2') format('woff2'),
+    url('../assets/fonts/TKT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
